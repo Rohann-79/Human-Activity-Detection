@@ -1,0 +1,25 @@
+{
+    "frame_buffer_size": 16,
+    "alert_cooldown": 30,
+    "confidence_threshold": 0.10,
+    "suspicious_actions": [
+        "falling",
+        "running"
+    ],
+    "recording": {
+        "enabled": true,
+        "pre_event": 5,
+        "post_event": 10,
+        "output_dir": "recordings"
+    },
+    "display": {
+        "show_fps": true,
+        "show_predictions": true,
+        "show_alerts": true
+    },
+    "notification": {
+        "sms_enabled": false,
+        "alarm_enabled": false,
+        "email_enabled": false
+    }
+} 
